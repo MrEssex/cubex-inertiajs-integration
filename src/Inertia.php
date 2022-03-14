@@ -11,6 +11,8 @@ class Inertia implements ContextAware, WithContext
   use ContextAwareTrait;
   use WithContextTrait;
 
+  protected array $_params = [];
+
   public function getVersion(): string
   {
     return $this->_hashDirectory($this->getContext()->getProjectRoot() . DIRECTORY_SEPARATOR . 'resources');
