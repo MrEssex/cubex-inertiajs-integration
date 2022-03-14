@@ -1,5 +1,7 @@
 {
-  "name": "mressex/cubex-inertiajs-provider",
+  "name": "mressex/cubex-inertiajs-integration",
+  "description": "Cubex InertiaJS Integration",
+  "license": "MIT",
   "authors": [
     {
       "name": "Kyle Essex",
@@ -7,12 +9,16 @@
     }
   ],
   "require": {
+    "php": ">=7.4",
     "packaged/context": "^1.8",
     "packaged/http": "^1.21"
   },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
   "autoload": {
     "psr-4": {
-      "MrEssex\\CubexInteriaJsProvider\\": "src/"
+      "MrEssex\\CubexInertiaJsProvider\\": "src/"
     }
   }
 }
