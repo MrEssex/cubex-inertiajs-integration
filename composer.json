@@ -1,0 +1,18 @@
+{
+  "name": "mressex/cubex-inertiajs-provider",
+  "authors": [
+    {
+      "name": "Kyle Essex",
+      "email": "kylegavinessex@hotmail.com"
+    }
+  ],
+  "require": {
+    "packaged/context": "^1.8",
+    "packaged/http": "^1.21"
+  },
+  "autoload": {
+    "psr-4": {
+      "MrEssex\\CubexInteriaJsProvider\\": "src/"
+    }
+  }
+}
